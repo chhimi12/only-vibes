@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA Event: Spring Potluck</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="poster-container">
+        <!-- Event Header / Poster Section -->
+        <header class="event-header">
+            <div class="event-title">
+                <h1>Hogle Floor 1 Potluck</h1>
+                <p class="subtitle">Join us for a fantastic evening of food and community!</p>
+            </div>
+            <div class="event-details">
+                <div class="detail-item">
+                    <span class="icon">📅</span>
+                    <span>March 24, 2026</span>
+                </div>
+                <div class="detail-item">
+                    <span class="icon">⏰</span>
+                    <span>7:00 PM - 9:00 PM</span>
+                </div>
+                <div class="detail-item">
+                    <span class="icon">📍</span>
+                    <span>Hogle Floor 1</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="content-body">
+            <!-- RSVP Form -->
+            <section class="form-section">
+                <h2>RSVP Here</h2>
+                <form id="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="student-id">Student ID *</label>
+                        <input type="text" id="student-id" name="student-id" placeholder="12345678" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="food">What are you bringing? *</label>
+                        <input type="text" id="food" name="food" placeholder="e.g., Chocolate chip cookies" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dietary-restrictions">Dietary Restrictions (Optional)</label>
+                        <input type="text" id="dietary-restrictions" name="dietary-restrictions" placeholder="e.g., Vegan, Gluten-Free">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submit-btn">Count Me In!</button>
+                    <div id="form-message" class="message hidden"></div>
+                </form>
+            </section>
+
+            <!-- Public List Section -->
+            <section class="list-section">
+                <h2>Who's Bringing What</h2>
+                <div class="list-container" id="food-list-container">
+                    <!-- Food items will be dynamically injected here -->
+                    <p class="loading">Loading the menu...</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

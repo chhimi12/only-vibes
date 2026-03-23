@@ -1,0 +1,19 @@
+Create a website for me for Hosting an RA event.
+The Color theme should be red and orange for the poster.
+
+Event is hosted at 7-9 pm at 3/24/2026 at Hogle Floor 1.
+
+
+Person should be required to enter name and student ID.
+
+It should take in what each person is briging and as each person puts in their food, A list should show up.
+There should be a section for dieatry restrtctions so that they can also enter what dietary restriction they have if any.
+
+
+It needs a backend and it needs to be hosted online but we can run it locally first.
+
+Ask me clarifying questions as we proceed. 
+
+
+
+
