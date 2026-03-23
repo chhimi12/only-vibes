@@ -90,8 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const isBringingEl = document.createElement('span');
             isBringingEl.textContent = 'is bringing:';
-            isBringingEl.style.fontSize = '0.9rem';
-            isBringingEl.style.color = '#757575';
+            isBringingEl.className = 'bringing-label';
             
             header.appendChild(nameEl);
             header.appendChild(isBringingEl);
